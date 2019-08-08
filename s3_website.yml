@@ -10,9 +10,9 @@ index_document: index.htm
 max_age:
    "*": 86400
 
+# no .txt, it messes up curl commands
 gzip:
   - .htm
-  - .txt
   - .md
 
 s3_reduced_redundancy: true

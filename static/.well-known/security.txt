@@ -1,0 +1,3 @@
+Contact: mailto:security@machine.codes
+Preferred-Languages: en,de
+Canonical: https://http.machine.codes/.well-known/security.txt

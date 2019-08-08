@@ -1,6 +1,6 @@
 <?php
 echo "\e[34;1m$code
-$phrase
+\e[35m$phrase
 
 \e[m$description
 

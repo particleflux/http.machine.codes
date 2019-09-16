@@ -5,15 +5,13 @@ s3_endpoint: eu-west-1
 site: build
 
 index_document: index.htm
-# error_document: error.html
+error_document: error.html
 
 max_age:
    "*": 86400
 
-# no .txt, it messes up curl commands
-gzip:
-  - .htm
-  - .md
+# don't gzip, it messes up curl commands
+#gzip: false
 
 s3_reduced_redundancy: true
 
